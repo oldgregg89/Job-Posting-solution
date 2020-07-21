@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using FriendLetter.Models;
 
-namespace FriendLetter.Controllers
+namespace JobPostings.Controllers
 {
   public class HomeController : Controller
   {
