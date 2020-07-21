@@ -1,9 +1,9 @@
-# _new template_
+# _Job Posting_
 
-#### _{Brief description of application}, 2020 ver 1.0_
+#### _, 2020 ver 1.0_
 
-#### By _Ian Gregg & (Co author)_
-[new-template-for-code-C]()
+#### By _Ian Gregg & _
+[Job-Posting]()
 
 ## Description
 
