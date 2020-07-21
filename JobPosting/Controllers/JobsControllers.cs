@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace JobPosting.Controllers
 {
-  public class JobOpeningsController : Controllers
+  public class JobOpeningsController : Controller
   {
     [HttpGet("/job-openings")]
     public ActionResult Index()

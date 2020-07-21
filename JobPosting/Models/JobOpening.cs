@@ -15,7 +15,7 @@ namespace JobPosting.Models
       JobContact = contact;
       _instances.Add(this);
     }
-    public static GetAll()
+    public static List<JobOpening> GetAll()
     {
       return _instances;
     }

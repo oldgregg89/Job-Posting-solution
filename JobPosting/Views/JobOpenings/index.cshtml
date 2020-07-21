@@ -1,0 +1,16 @@
+@using JobPosting.Models;
+
+<h1>Jobs Board</h1>
+
+@if (Model.Count == 0)
+{
+  <p>There are no jobs in the list.</p>
+}
+<ul>
+  @foreach (JobOpening job in Model)
+  {
+    <li>Job Title: @job.Title<br>Job Description: @job.Description<br>Contact Name: @job.JobContact.Name<br>Contact E-Mail: @job.JobContact.Email<br>Contact Phone Number: @job.JobContact.PhoneNumber</li>
+  }
+
+</ul>
+<a href="/job-openings/new">Add a new item.</a>
